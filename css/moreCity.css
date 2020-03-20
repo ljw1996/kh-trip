@@ -1,0 +1,220 @@
+@import './base.css';
+
+/* 头部区域 */
+
+header {
+    height: 2.4rem;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    padding-left: 14px;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+}
+
+header .left {
+    float: left;
+}
+
+header .icon-left-copy {
+    line-height: 2.4rem;
+    font-size: .9rem;
+    color: #01af63;
+}
+
+header .chufadi {
+    color: #606060;
+    position: absolute;
+    left: 88px;
+    right: 88px;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: .5rem;
+}
+
+header .chufadi h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+header .chufadi h1:before {
+    content: '';
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 5px;
+    background: url(../bitbug_favicon\ \(1\).ico) no-repeat;
+    background-size: 100%;
+    vertical-align: -5px;
+}
+
+
+/* 主体区域 */
+
+
+/* 搜索框 */
+
+.city-page .city-search {
+    position: relative;
+    margin: .4rem .75rem;
+    background: #fff;
+    height: 2rem;
+    font-size: 0;
+    line-height: 2rem;
+    padding: 0 .5rem;
+    border-radius: 2px;
+}
+
+.city-page .city-search i {
+    float: left;
+    color: #999;
+    font-size: .9rem;
+    margin-right: .4rem;
+}
+
+.city-page .city-search .city-input {
+    float: left;
+    width: 90%;
+    font-size: .7rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    padding: .28rem 0;
+    border: 0;
+    box-sizing: content-box;
+    color: #999;
+}
+
+.city-page .city-search .city-input-cancel {
+    display: none;
+    position: absolute;
+    right: 3rem;
+    top: .1rem;
+    color: #01af63;
+    font-size: .7rem;
+    margin-right: -2rem;
+}
+
+
+/* 城市楼层区域 */
+
+.city-page .city-content {
+    padding: .75rem 1rem .75rem 0;
+    background: #fff;
+}
+
+.city-page .city-content .city-title {
+    font-size: .8rem;
+    color: #666;
+    height: 1rem;
+    line-height: 1rem;
+    margin-right: .75rem;
+    padding-left: .75rem;
+}
+
+.city-page .city-content .city-warp {
+    padding: .75rem 0 0 .75rem;
+}
+
+.city-page .city-content .hot-city-warp {
+    padding: .75rem 0 0 .75rem;
+}
+
+.city-page .city-content .item-city-warp {
+    padding: .75rem 0 0 .75rem;
+}
+
+
+/* 当前城市 */
+
+.city-page .city-content .city-warp li {
+    display: inline-block;
+    min-width: 33%;
+    max-width: 100%;
+    font-size: .7rem;
+    color: #333;
+    height: 1.75rem;
+    padding-right: .75rem;
+    margin-bottom: .75rem;
+}
+
+.city-page .city-content .city-warp li .city-item {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 .5rem;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    line-height: 1.75rem;
+    text-align: center;
+    white-space: nowrap;
+    border-color: #01af63;
+    color: #01af63;
+}
+
+
+/* 热门目的地城市 */
+
+.city-page .city-content .hot-city-warp li {
+    display: inline-block;
+    min-width: 27%;
+    max-width: 100%;
+    font-size: .7rem;
+    color: #333;
+    height: 1.75rem;
+    margin-bottom: .75rem;
+    margin-right: .5rem;
+}
+
+.city-page .city-content .hot-city-warp li .city-item {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    line-height: 1.75rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+/* a-z城市 */
+
+.city-page .city-content .item-city-warp li {
+    display: inline-block;
+    min-width: 27%;
+    max-width: 100%;
+    font-size: .7rem;
+    color: #333;
+    height: 1.75rem;
+    margin-bottom: .75rem;
+    margin-right: .5rem;
+}
+
+.city-page .city-content .item-city-warp li .city-item {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    border-radius: 2px;
+    line-height: 1.75rem;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+/* 侧边栏 */
+
+.city-page .silde-nav {
+    position: fixed;
+    right: .25rem;
+    top: 6rem;
+    font-size: .7rem;
+    color: #01af63;
+}
+
+.city-page .silde-nav .nav-item {
+    display: block;
+    width: 1rem;
+    text-align: center;
+    padding-bottom: .2rem;
+}

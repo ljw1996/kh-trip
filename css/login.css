@@ -1,0 +1,213 @@
+@import './base.css';
+
+/* 头部区域 */
+
+header {
+    width: 100%;
+    height: 2.4rem;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    padding: 0 14px;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .1);
+}
+
+header .left {
+    float: left;
+}
+
+header .icon-left-copy {
+    line-height: 2.4rem;
+    font-size: .9rem;
+    color: #01af63;
+}
+
+header .login-title {
+    color: #606060;
+    position: absolute;
+    left: 88px;
+    right: 88px;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: .5rem;
+}
+
+header .login-title h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+header .login-title h1:before {
+    content: '';
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 5px;
+    background: url(../bitbug_favicon\ \(1\).ico) no-repeat;
+    background-size: 100%;
+    vertical-align: -5px;
+}
+
+
+/* 主体区域 */
+
+.on {
+    color: #01af63 !important;
+    border-bottom: .04rem solid #01af63;
+}
+
+.login-page {
+    width: 100%;
+}
+
+.login-page .login-tab {
+    display: flex;
+    width: 100%;
+    background-color: #f0eff5;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    font-size: .75rem;
+    padding: 0;
+    margin: 0;
+}
+
+.login-page .login-tab li {
+    flex: 1;
+    color: #606060;
+    text-align: center;
+}
+
+.login-page .login-box {
+    padding: 0 1rem;
+    background-color: #fff;
+}
+
+.login-page .login-box .login-btn {
+    width: 100%;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #fff;
+    background: #01af63;
+    border: 1px solid #01af63;
+    font-size: .85rem;
+    margin-top: 1.2rem;
+}
+
+.login-page .login-box .input-item {
+    width: 100%;
+    position: relative;
+    height: 2.75rem;
+    box-sizing: content-box;
+    border-bottom: .03rem solid #e8e9eb;
+}
+
+.login-page .login-box .input-item .icon-shouji {
+    position: absolute;
+    left: 0;
+    top: .875rem;
+    font-size: 1rem;
+    color: #01af63;
+}
+
+.login-page .login-box .input-item .icon-yanzhengma {
+    position: absolute;
+    left: 0;
+    top: .875rem;
+    font-size: 1rem;
+    color: #01af63;
+}
+
+.login-page .login-box .input-item .icon-yonghumingmimaicon- {
+    position: absolute;
+    left: 0;
+    top: .875rem;
+    font-size: 1rem;
+    color: #01af63;
+}
+
+.login-page .login-box .input-item .icon-icon-test {
+    position: absolute;
+    left: 0;
+    top: .875rem;
+    font-size: 1rem;
+    color: #01af63;
+}
+
+.login-page .login-box .input-item .icon- {
+    position: absolute;
+    left: 0;
+    top: .875rem;
+    font-size: 1rem;
+    color: #01af63;
+}
+
+.login-page .login-box .input-item .mid {
+    padding: 0 2rem;
+}
+
+.login-page .login-box .input-item input {
+    border: none;
+    height: 1.7rem;
+    padding: .5rem 0;
+    width: 100%;
+    font-size: .7rem;
+    background: 0 0;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    color: #999;
+}
+
+.login-page .login-box .input-item .icon-DYKS_shanchu {
+    position: absolute;
+    right: 0;
+    top: .875rem;
+    font-size: 1rem;
+    color: #e8e9eb;
+}
+
+.login-page .login-box .input-item .rig2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5.25rem;
+}
+
+.login-page .login-box .input-item .rig2 .code-btn {
+    width: 5.2rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    text-align: center;
+    color: #01af63;
+    font-size: .7rem;
+    display: inline-block;
+    border: 1px solid #01af63;
+    margin-top: .55rem;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -p-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.login-box .opr {
+    padding-top: 1.25rem;
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.login-box .opr a {
+    display: table-cell;
+    width: 50%;
+    height: 3rem;
+    line-height: 3rem;
+    color: #999;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.login-box .opr a.change {
+    color: #01af63;
+}

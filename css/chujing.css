@@ -1,0 +1,226 @@
+@import './base.css';
+
+/* 头部区域 */
+
+header {
+    width: 100%;
+    height: 2.4rem;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    /* padding: 0 14px; */
+    background: #fff;
+    box-shadow: 0 0 .1rem rgba(0, 0, 0, .1);
+    border-bottom: .02rem solid rgba(0, 0, 0, .1);
+}
+
+header .left {
+    float: left;
+    margin-left: .5rem;
+}
+
+header .icon-home {
+    line-height: 2.4rem;
+    font-size: 1rem;
+    color: #01af63;
+}
+
+header .login-title {
+    color: #606060;
+    position: absolute;
+    left: 4rem;
+    right: 4rem;
+    text-align: center;
+    line-height: 2.3rem;
+    font-size: .5rem;
+}
+
+header .login-title h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+header .login-title h1:before {
+    content: '';
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 5px;
+    background: url(../bitbug_favicon\ \(1\).ico) no-repeat;
+    background-size: 100%;
+    vertical-align: -5px;
+}
+
+header .right {
+    float: right;
+    margin-right: .5rem;
+}
+
+header .icon-search {
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    color: #01af63;
+}
+
+
+/* 推荐区域 */
+
+.recommend-tab {
+    display: flex;
+    position: relative;
+    height: 2.5rem;
+    background-color: #fff;
+}
+
+.recommend-tab-item {
+    flex: 1 0 auto;
+    width: 0;
+    float: left;
+    line-height: 2.5rem;
+    color: #333;
+    position: relative;
+    text-align: center;
+    font-size: .7rem;
+    border-bottom: .02rem solid rgba(0, 0, 0, .2);
+}
+
+.on {
+    border-bottom: .1rem solid green;
+}
+
+.recommend-content {
+    background-color: #fff;
+    padding-bottom: 2.5rem;
+}
+
+.recommend-list {
+    display: none;
+    position: relative;
+    padding: 0 0 1px;
+    background-color: #fff;
+}
+
+.recommend-card {
+    position: relative;
+    padding: .65rem;
+}
+
+.recommend-card dl {
+    display: table;
+    width: 100%;
+    list-style: none;
+}
+
+.recommend-card dl dt {
+    display: table-cell;
+    vertical-align: top;
+    width: 6rem;
+    height: 4.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.recommend-card dl dt img {
+    height: 100%;
+    width: 100%;
+}
+
+.recommend-card dl dt .tag {
+    left: 0;
+    top: 0;
+    padding: .25rem .35rem;
+    position: absolute;
+    font-size: .55rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .68);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.recommend-card dl dd {
+    display: table-cell;
+    vertical-align: top;
+    height: 4.5rem;
+    padding-left: .75rem;
+    position: relative;
+    list-style: none;
+}
+
+.recommend-card dl dd .title {
+    font-size: .8rem;
+    height: 1.75rem;
+    color: #333;
+    white-space: normal;
+    line-height: .9rem;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.recommend-card dl dd .group {
+    height: .8rem;
+    line-height: .8rem;
+    margin-top: .1rem;
+    font-size: .6rem;
+    color: #999;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recommend-card dl dd .pro_tag {
+    font-size: 0;
+    width: 100%;
+    height: .9rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: .1rem;
+}
+
+.recommend-card dl dd .pro_tag span {
+    position: relative;
+    border: none;
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: .5rem;
+    color: #999;
+    margin-right: .15rem;
+    padding: 2px .2rem 1.3px;
+}
+
+.recommend-card dl dd .start {
+    position: absolute;
+    left: .75rem;
+    bottom: 0;
+    width: 8rem;
+    font-size: .6rem;
+    line-height: 1.5;
+    color: #999;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recommend-card dl dd .pro-price {
+    font-size: 0;
+    position: absolute;
+    bottom: -.1rem;
+    left: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.recommend-card dl dd .pro-price .cym,
+.recommend-card dl dd .pro-price .price {
+    font-size: .95rem;
+    color: #ff811a;
+}
+
+.recommend-card dl dd .pro-price .qi {
+    font-size: .6rem;
+    color: #999;
+}

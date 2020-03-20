@@ -1,0 +1,40 @@
+/* 通用样式 */
+
+body {
+    max-width: 640px;
+    margin: 0 auto !important;
+    background-color: #f2f2f2;
+    color: #eee;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+ul,
+ol,
+dl,
+dt,
+dd,
+input {
+    list-style: none;
+}
+
+html {
+    line-height: 1;
+}
+
+input {
+    outline: none;
+}
+
+
+/* 通用样式end  */
